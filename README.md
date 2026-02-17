@@ -5,7 +5,8 @@
 pyaidx is not conda installable. Use: pip install pyaidx
 * Human genome: hg38 file is available in the repository.
 
-* The chromosome file is available at thsi link: https://hgdownload.soe.ucsc.edu/goldenPath/hg38/chromosomes/
+* The chromosome file is available at this link: <br>
+https://hgdownload.soe.ucsc.edu/goldenPath/hg38/chromosomes/ <br>
   This file comes as chr4.gz.fa . Using the following command in the linux terminal we unzip it:
 
   $gunzip chr4.fa.gz
