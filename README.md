@@ -14,7 +14,7 @@ pyaidx is not conda installable. Use: pip install pyaidx
 
   $bedtools getfasta -fi data/chr4.fa -bed data/chr4_regions.bed -name -fo data/chr4_sequences.fa
 
-  This gives us a FASTA file called chr4_sequences.fa. We have already uploaded this file in the data folder (see below) with the rest of the data files needed to the code.
+  This gives us a FASTA file called chr4_sequences.fa. We have already uploaded this file in the data folder (see below) with the rest of the data files needed to run the code.
 
 
 
