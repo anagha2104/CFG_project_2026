@@ -16,20 +16,18 @@ pyaidx is not conda installable. Use: pip install pyaidx
 
   This gives us a FASTA file called chr4_sequences.fa. We have already uploaded this file in the data folder (see below) with the rest of the data files needed to run the code.
 
-
-
-
 ## 2. File Structure 
 * `MarkovCrossValidation.py` - The primary script to run
 
 * `data/` - Folder containing the `.fa` files for chromosome_4, config.txt file
-The fasta file for respective chromosome chromosome can be made and stored in the data file by running
+It is accessible on drive because the files are too big to be upload here on github:
+https://drive.google.com/drive/folders/13CnCpZOIVt-NNocKkq-FvW1Bi0p6Pmq9
 
 ## 3. How to Run
 Run the script from the terminal using a config file by typing the following on the command line.
 python3 parallel_cfg.py --config config.txt
 # Format of config file:
-m = 0
-k = 5
+m = 0 /n
+k = 5 /n
 protein_name = CTCF
 
