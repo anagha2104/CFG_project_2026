@@ -18,7 +18,7 @@ pyaidx is not conda installable. Use: pip install pyaidx
 
 ## 2. File Structure 
 * `MarkovCrossValidation.py` - This is the primary script to run. It produces ROC and PR curves, their area under the curves and time taken to run the code. 
-* 'simpleVersion.py' - This reads and prints log-likelihood scores line by line for each sequence in a given FASTA file based on a transition matrix generated for the same set of sequences.
+* `simpleVersion.py` - This reads and prints log-likelihood scores line by line for each sequence in a given FASTA file based on a transition matrix generated for the same set of sequences.
 * `data/` - Folder containing the `.fa` files for chromosome_4, config.txt file and the tsv file with the bins for chromosome 4.
 It is accessible on drive because the files are too big to be upload here on github: <br>
 https://drive.google.com/drive/folders/13CnCpZOIVt-NNocKkq-FvW1Bi0p6Pmq9
@@ -28,7 +28,7 @@ https://drive.google.com/drive/folders/13CnCpZOIVt-NNocKkq-FvW1Bi0p6Pmq9
 $python3 MarkovCrossValidation.py 
 
 * For running the simpleVersion.py use the following command: <br>
-$python3 simpleVersion.py --order 0 --input ./data/chr4_sequences.fa
+$python3 simpleVersion.py --order m --input /path/to/the/fasta_file.fa
 # Format of config file:
 m = 0 <br>
 k = 5 <br>
