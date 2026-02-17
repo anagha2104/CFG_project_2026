@@ -27,7 +27,7 @@ https://drive.google.com/drive/folders/13CnCpZOIVt-NNocKkq-FvW1Bi0p6Pmq9
 Run the script from the terminal using a config file by typing the following on the command line.
 python3 parallel_cfg.py --config config.txt
 # Format of config file:
-m = 0
-k = 5
+m = 0 <br>
+k = 5 <br>
 protein_name = CTCF
 
